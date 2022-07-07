@@ -23,7 +23,7 @@ const {
  } = settings;
  // 위 코드는 const follow = settings.notifications. follow, const color = settings.color 과 같은 효과를 함
 ```
-+ 위와 같은 방식으로 코딩을 하면, settings 오브젝트 내에 있는데 요소들을 외부에 선언하고 사용하기 용이함
++ 위와 같은 방식으로 코딩을 하면, settings 오브젝트 내에 있는데 elements(요소들)을 외부에 선언하고 사용하기 용이함
 + 반복되는 코딩을 줄이고 실수를 줄일 수 있음
  ```java
  const {
@@ -56,7 +56,7 @@ saveSettings({
   themeColor: "green",
 });
 ```
-+ 위 코드에서 followAlert 및 unfollowAlert 등의 값을 saveSettings 함수 안에서 사용하려면 settings property 내부의 요소에 접근 해야함
++ 위 코드에서 followAlert 및 unfollowAlert 등의 값을 saveSettings 함수 안에서 사용하려면 settings property 내부의 element(요소)에 접근 해야함
 
  ```java
 function saveSettings({followAlert, unfollowAlert}) {
@@ -64,7 +64,7 @@ function saveSettings({followAlert, unfollowAlert}) {
   console.log(unfollowAlert);
 }
 ```
-+ Destructuring 을 사용하면 saveSettings 오브젝트 내부에 요소 자체를 property로 선언 및 사용 가능함
++ Destructuring 을 사용하면 saveSettings 오브젝트 내부에 element(요소) 자체를 property로 선언 및 사용 가능함
 <br/>
 
 ### Value Shorthands 💬
@@ -100,4 +100,4 @@ console.log(thu, fri);
  
  
  ### SUM 🤝
-#### 특정 object 내 다수의 요소들을 사용할 경우, 극강의 효율을 발휘할 수 있는 Destructuring
+#### 특정 object 내 다수의 element(요소)들을 사용할 경우, 극강의 효율을 발휘할 수 있는 Destructuring
