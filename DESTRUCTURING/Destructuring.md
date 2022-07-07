@@ -39,6 +39,7 @@ const {
  } = settings;
 ```
 + 위 코드와 같이 follow 의 이름을 변경할 수 있음
+<br/>
 
 ### Object Destructuring in function 💬
 #### Shortcut 🔥
@@ -56,7 +57,7 @@ saveSettings({
 });
 ```
 + 위 코드에서 followAlert 및 unfollowAlert 등의 값을 saveSettings 함수 안에서 사용하려면 settings property 내부의 요소에 접근 해야함
-#### Shortcut 🔥
+
  ```java
 function saveSettings({followAlert, unfollowAlert}) {
   console.log(followAlert);
@@ -64,6 +65,7 @@ function saveSettings({followAlert, unfollowAlert}) {
 }
 ```
 + Destructuring 을 사용하면 saveSettings 오브젝트 내부에 요소 자체를 property로 선언 및 사용 가능함
+<br/>
 
 ### Value Shorthands 💬
 #### Shortcut 🔥
@@ -79,7 +81,7 @@ const settings = {
 };
 ```
 + follow : follow , alert : alert 를 짧게 코딩 가능함
-
+<br/>
 
 ### Others (array) 💬
 #### Shortcut 🔥
