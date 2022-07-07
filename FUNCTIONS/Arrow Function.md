@@ -17,7 +17,7 @@ names.map((item, index) => item + "," + index);
 ```
 
 ### This 💬
-#### When we should now use arrow function 🔥
+#### When we should no use arrow function 🔥
 + arrow function 안에 있는 this는 window 를 참조함   
 - this 를 사용하고 싶다면 arrow function 을 사용해서는 안됨
  
