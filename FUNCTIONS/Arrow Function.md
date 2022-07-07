@@ -20,6 +20,15 @@ names.map((item, index) => item + "," + index);
 #### When we should no use arrow function 🔥
 + arrow function 안에 있는 this는 window 를 참조함   
 - this 를 사용하고 싶다면 arrow function 을 사용해서는 안됨
+
+### Default values
+#### property(argument)'s default value  🔥
+```java
+const hi = (name = "geon") => `hello ${name}`
+console.log(hi());
+// output -> 'hello geon'
+// default value 가 없는 경우엔 undifiend
+```
  
 
  <hr/>
