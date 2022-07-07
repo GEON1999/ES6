@@ -49,9 +49,12 @@ console.log(name.endsWith("strange"));
 // output -> true
 // output -> true
 ```
-<hr/>
-### SUM 🤝
-#### String 을 보다 편하게 사용 가능한 여러 방법들
+<hr> </hr>
+
+
+
+### SUM 🤝   
+#### String 을 보다 편하게 사용 가능한 여러 방법들   
 + "" + "" + 함수 X   
 => (백틱)string string ${함수}(백틱) O
  
