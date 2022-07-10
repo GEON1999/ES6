@@ -6,12 +6,26 @@ Promises Chaining ✍️
 ### 주제 💬
 #### 요약 🔥
 
-![프로미스 체이닝]([http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0](https://cdn.discordapp.com/attachments/446295737454821404/995509806808961084/unknown.png))
+![프로미스 체이닝](https://cdn.discordapp.com/attachments/446295737454821404/995509806808961084/unknown.png)
 
 + 예시
  ```java
- code
-// output ->
+const amIdouble = new Promise((resolve, reject) => {
+resolve(2);
+});
+
+const timesTwo = (numbertwo) => numbertwo * 2;
+
+amIdouble
+.then(timesTwo)
+.then(timesTwo)
+.then(timesTwo)
+.then(timesTwo)
+//.then(() => {
+// throw Error("something is wrong");})
+.then((lastNumber) => console.log(lastNumber))
+//.catch((error) => console.log(error));
+// output -> 32
 ```
 
  
@@ -20,6 +34,6 @@ Promises Chaining ✍️
  
  
  ### SUM 🤝
-#### 요약
-+ 설명 (opt)
+#### promise 값의 
+
  
