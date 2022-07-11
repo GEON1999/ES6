@@ -1,6 +1,6 @@
-.all, .race, .finally ✍️
+Promise method ✍️
 =============
-2nd header(opt) ☑
+.all, .race, .finally ☑
 -------------
 
 ### .all 💬
