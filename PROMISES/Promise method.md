@@ -1,4 +1,4 @@
-Promise method ✍️
+Promise methods ✍️
 =============
 .all, .race, .finally ☑
 -------------
